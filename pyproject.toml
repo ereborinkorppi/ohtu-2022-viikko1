@@ -5,11 +5,12 @@ description = ""
 authors = ["Kalle Ilves <kalle.ilves@helsinki.fi>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.7"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
 coverage = "^6.2"
+pylint = "^2.12.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
